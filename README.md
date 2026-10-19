@@ -1,20 +1,23 @@
 # Bharath B — Personal Portfolio
 
-A responsive personal portfolio website built with HTML and CSS to introduce my work, skills, selected projects, and contact links.
+A responsive personal portfolio website built with semantic HTML5 and CSS3. It introduces my development interests, selected projects, technical toolkit, professional background, and contact links.
 
 ## Overview
 
-The page is a lightweight static website with clear navigation and sections for an introduction, about, skills, projects, and contact information.
+The portfolio uses a dark visual style with mint and violet accents, a responsive navigation header, a code-themed hero card, and dedicated sections for about, skills, projects, experience, and contact.
 
 ## Features
 
-- Responsive layout for different screen sizes
-- Navigation links to page sections
-- About and technical skills sections
-- Selected project cards
-- Contact email link
-- LinkedIn and GitHub links
-- Semantic HTML and separate CSS stylesheet
+- Responsive layouts for desktop, tablet, and mobile
+- Sticky navigation with section links
+- About section with working principles
+- Skills grouped by frontend, backend/data, and workflow
+- Project cards with links to source code and the FileBuddy live demo
+- Professional background section
+- Email, LinkedIn, GitHub, and X links
+- Semantic HTML and keyboard focus styles
+- Reduced-motion support for accessibility
+- No JavaScript framework or build step required
 
 ## Built With
 
@@ -22,8 +25,6 @@ The page is a lightweight static website with clear navigation and sections for 
 - CSS3
 
 ## Run Locally
-
-No build tools or package installation are required.
 
 1. Clone the repository:
 
@@ -34,11 +35,12 @@ No build tools or package installation are required.
 2. Open the project folder.
 3. Open `index.html` in your browser.
 
-The root folder contains the main `index.html` and `style.css` files.
+The root `index.html` and `style.css` files are the main site files. A matching copy is kept in the `my-portfolio` directory.
 
-## Repository
+## Featured Projects
 
-[View source code on GitHub](https://github.com/Bharathpurvath/bharath-portfolio)
+- **FileBuddy:** [Live Demo](https://lambent-chaja-765d34.netlify.app/) · [Source Code](https://github.com/Bharathpurvath/filebuddy)
+- **Smart Farming IoT Dashboard:** [Source Code](https://github.com/Bharathpurvath/Bharath.B)
 
 ## Author
 
@@ -46,3 +48,4 @@ The root folder contains the main `index.html` and `style.css` files.
 
 - GitHub: [@Bharathpurvath](https://github.com/Bharathpurvath)
 - LinkedIn: [Bharath B](https://linkedin.com/in/bharath-b-3a0bb9207)
+- X: [@Bharath70145101](https://x.com/Bharath70145101)
