@@ -2,6 +2,10 @@
 
 A responsive personal portfolio website built with semantic HTML5 and CSS3. It introduces my development interests, selected projects, technical toolkit, professional background, and contact links.
 
+## Live Portfolio
+
+[Visit the live website](https://bharathpurvath.github.io/bharath-portfolio/)
+
 ## Overview
 
 The portfolio uses a dark visual style with mint and violet accents, a responsive navigation header, a code-themed hero card, and dedicated sections for about, skills, projects, experience, and contact.
