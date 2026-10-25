@@ -8,7 +8,7 @@ A responsive personal portfolio website built with semantic HTML5 and CSS3. It i
 
 ## Overview
 
-The portfolio uses a responsive editorial design with a dedicated data analytics section alongside selected development work, project collections, skills, experience, and contact details.
+The portfolio uses a responsive editorial design with dedicated data analytics and digital marketing sections alongside selected development work, project collections, skills, experience, and contact details.
 
 ## Features
 
@@ -18,6 +18,7 @@ The portfolio uses a responsive editorial design with a dedicated data analytics
 - Skills grouped by frontend, backend/data, and workflow
 - Selected project cards with links to source code and the FileBuddy live demo
 - Six data analytics case studies with source, findings, and scope limits
+- Ten digital marketing projects with links to audits, workbooks, and the interactive analytics platform
 - Professional background section
 - Email, LinkedIn, GitHub, and X links
 - Semantic HTML and keyboard focus styles
@@ -45,6 +46,7 @@ The root `index.html`, `style.css`, and `script.js` files are the deployed site.
 ## Featured Projects
 
 - **Data analytics:** six case studies in the [advanced projects repository](https://github.com/Bharathpurvath/advanced-projects)
+- **Digital marketing:** [10 project portfolio](https://bharathpurvath.github.io/bharath-portfolio/digital-marketing/)
 - **India data analyst job market:** [live dashboard](https://bharathpurvath.github.io/advanced-projects/india-data-analyst-job-market-capstone/reports/dashboard.html)
 - **FileBuddy:** [Live Demo](https://lambent-chaja-765d34.netlify.app/) · [Source Code](https://github.com/Bharathpurvath/filebuddy)
 - **Smart Farming IoT Dashboard:** [Source Code](https://github.com/Bharathpurvath/Bharath.B)
