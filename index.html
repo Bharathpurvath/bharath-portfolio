@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f1e9">
-  <meta name="description" content="Bharath B is a web developer building responsive web applications, automation tools, and project labs with React, JavaScript, and Python.">
-  <meta property="og:title" content="Bharath B — Developer & Builder">
-  <meta property="og:description" content="Selected work, project collections, technical skills, and professional background of Bharath B.">
+  <meta name="description" content="Bharath B builds practical web applications and explores real-world questions through independent data analytics projects.">
+  <meta property="og:title" content="Bharath B — Developer & Data Analytics Portfolio">
+  <meta property="og:description" content="Selected development work, data analytics case studies, technical skills, and professional background of Bharath B.">
   <meta property="og:type" content="website">
-  <title>Bharath B — Developer & Builder</title>
+  <title>Bharath B — Developer & Data Analytics Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
       <a class="wordmark" href="#home" aria-label="Bharath home">B<span>/</span>B</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">+</span></button>
       <nav class="main-nav" id="main-nav" aria-label="Main navigation">
-        <a href="#work">Work</a><a href="#collections">Labs</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+        <a href="#work">Work</a><a href="#data-work">Data analytics</a><a href="#collections">Labs</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
       </nav>
       <a class="availability" href="mailto:Bharath.dev040402@gmail.com"><span></span> Open to opportunities</a>
     </div>
@@ -30,16 +30,16 @@
 
   <main id="main">
     <section class="hero page-wrap" id="home">
-      <div class="hero-kicker"><span class="mono">INDEPENDENT DEVELOPER</span><span class="kicker-line"></span><span class="mono">CHENNAI, INDIA</span></div>
+      <div class="hero-kicker"><span class="mono">DEVELOPMENT · DATA ANALYTICS</span><span class="kicker-line"></span><span class="mono">CHENNAI, INDIA</span></div>
       <div class="hero-grid">
         <div class="hero-copy">
           <h1>Ideas into<br><span class="serif-accent">useful</span> things<span class="period">.</span></h1>
-          <p class="hero-intro">I'm Bharath, a developer who enjoys building thoughtful interfaces, practical web apps, and tools that make everyday work simpler.</p>
+          <p class="hero-intro">I'm Bharath, a Chennai-based developer who enjoys building practical web apps and using data to explore questions about markets, payments, and the city.</p>
           <div class="hero-actions">
             <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
             <a class="underlined-link" href="mailto:Bharath.dev040402@gmail.com">Let's talk <span aria-hidden="true">↗</span></a>
           </div>
-          <div class="hero-footnote"><span class="mono">CURRENTLY BUILDING</span><span>React interfaces · Python APIs · Useful software</span></div>
+          <div class="hero-footnote"><span class="mono">CURRENTLY BUILDING</span><span>Web apps · Python APIs · Data analysis</span></div>
         </div>
         <div class="hero-visual" aria-label="Abstract illustration of a developer workspace">
           <div class="visual-label mono">FIELD NOTES / 001</div>
@@ -50,7 +50,7 @@
           <span class="visual-cross cross-one">✳</span><span class="visual-cross cross-two">+</span>
         </div>
       </div>
-      <div class="hero-bottom"><span class="mono">SCROLL TO EXPLORE</span><span class="scroll-rule"></span><span class="mono">01 — 05</span></div>
+      <div class="hero-bottom"><span class="mono">SCROLL TO EXPLORE</span><span class="scroll-rule"></span><span class="mono">01 — 07</span></div>
     </section>
 
     <section class="work-section section-pad" id="work">
@@ -86,10 +86,28 @@
       </div>
     </section>
 
+    <section class="data-section section-pad" id="data-work" aria-labelledby="data-title">
+      <div class="page-wrap">
+        <div class="section-head">
+          <div><p class="section-index mono">02 / DATA ANALYTICS</p><h2 id="data-title">Questions, data,<br><span class="serif-accent">and evidence.</span></h2></div>
+          <p class="section-summary">Six case studies using public datasets, fresh APIs, and privacy-safe collection methods. Each links to the source, method, findings, and caveats.</p>
+        </div>
+        <div class="data-grid">
+          <article class="data-card"><div class="data-card-top"><span class="mono">01 / BEGINNER</span><span class="data-kind">UCI TRANSACTIONS</span></div><h3>Online retail sales deep dive</h3><p>Clean a historical UK retail transaction log and examine sales, cancellation invoices, products, and markets.</p><div class="data-stat">£10.67M <span>analyzed sales revenue</span></div><div class="data-card-bottom"><div class="data-tags"><span>SQL</span><span>Python</span><span>SQLite</span></div><a href="https://github.com/Bharathpurvath/advanced-projects/tree/main/online-retail-sales-deep-dive">Case study ↗</a></div></article>
+          <article class="data-card data-warm"><div class="data-card-top"><span class="mono">02 / BEGINNER</span><span class="data-kind synthetic">SYNTHETIC DEMO</span></div><h3>Your WhatsApp group, decoded</h3><p>A local-only parser for message timing, common words, and emoji. Public examples use fictional labels and messages.</p><div class="data-stat">33 messages <span>fictional demo · not personal findings</span></div><div class="data-card-bottom"><div class="data-tags"><span>Python</span><span>pandas</span><span>regex</span></div><a href="https://github.com/Bharathpurvath/advanced-projects/tree/main/whatsapp-group-chat-decoded">Case study ↗</a></div></article>
+          <article class="data-card data-cool"><div class="data-card-top"><span class="mono">03 / BEGINNER → INTERMEDIATE</span><span class="data-kind">OPEN-METEO · CAMS</span></div><h3>Chennai air quality, hour by hour</h3><p>Explore two weeks of modeled PM2.5 estimates against gridded rainfall and time-of-day patterns.</p><div class="data-stat">336 hours <span>14-day exploratory sample</span></div><div class="data-card-bottom"><div class="data-tags"><span>Python</span><span>APIs</span><span>time series</span></div><a href="https://github.com/Bharathpurvath/advanced-projects/tree/main/chennai-air-quality-hourly">Case study ↗</a></div></article>
+          <article class="data-card data-cool"><div class="data-card-top"><span class="mono">04 / INTERMEDIATE</span><span class="data-kind">RBI DBIE</span></div><h3>UPI and cards: growth and mix</h3><p>Compare monthly transaction volume, value, and average payment size across UPI and card channels.</p><div class="data-stat">81 months <span>November 2019 – July 2026</span></div><div class="data-card-bottom"><div class="data-tags"><span>Python</span><span>SQL</span><span>pandas</span></div><a href="https://github.com/Bharathpurvath/advanced-projects/tree/main/upi-payments-and-cards">Case study ↗</a></div></article>
+          <article class="data-card data-warm"><div class="data-card-top"><span class="mono">05 / INTERMEDIATE</span><span class="data-kind synthetic">SYNTHETIC DEMO</span></div><h3>Zomato vs Swiggy price gap</h3><p>A manual observation workbook and matched-pair analysis. The public example is invented; real comparisons need locally collected records.</p><div class="data-stat">20 pairs <span>fictional demo · no app prices observed</span></div><div class="data-card-bottom"><div class="data-tags"><span>Python</span><span>sampling</span><span>Excel</span></div><a href="https://github.com/Bharathpurvath/advanced-projects/tree/main/zomato-swiggy-price-gap">Case study ↗</a></div></article>
+          <article class="data-card"><div class="data-card-top"><span class="mono">06 / ADVANCED CAPSTONE</span><span class="data-kind">HIMALAYAS API</span></div><h3>What do data analyst job ads ask for?</h3><p>Analyze skill mentions and salary coverage in remote roles open to applicants in India; this source has no reliable Chennai-site filter.</p><div class="data-stat">44 listings <span>one filtered weekly baseline</span></div><div class="data-card-bottom"><div class="data-tags"><span>Python</span><span>SQL</span><span>SQLite</span></div><a href="https://bharathpurvath.github.io/advanced-projects/india-data-analyst-job-market-capstone/reports/dashboard.html">Open dashboard ↗</a></div></article>
+        </div>
+        <p class="data-note">Privacy and limits: the WhatsApp and food-app public examples are synthetic. The air-quality sample uses modeled estimates, not ground-station readings. The job-market capstone covers India-eligible remote roles; its salary and time-trend samples are limited.</p>
+      </div>
+    </section>
+
     <section class="collection-section section-pad" id="collections" aria-labelledby="collection-title">
       <div class="page-wrap">
         <div class="section-head">
-          <div><p class="section-index mono">02 / PROJECT COLLECTIONS</p><h2 id="collection-title">Learning paths,<br><span class="serif-accent">from basics to systems.</span></h2></div>
+          <div><p class="section-index mono">03 / PROJECT COLLECTIONS</p><h2 id="collection-title">Learning paths,<br><span class="serif-accent">from basics to systems.</span></h2></div>
           <p class="section-summary">Three collections follow a practical path from core browser skills to full-stack apps and production-minded engineering.</p>
         </div>
         <div class="collection-grid">
@@ -117,17 +135,17 @@
 
     <section class="about-section section-pad" id="about">
       <div class="page-wrap about-grid">
-        <div><p class="section-index mono">03 / A LITTLE ABOUT ME</p><h2>Good software starts<br>with <span class="serif-accent">good questions.</span></h2></div>
+        <div><p class="section-index mono">04 / A LITTLE ABOUT ME</p><h2>Good software starts<br>with <span class="serif-accent">good questions.</span></h2></div>
         <div class="about-copy"><p class="about-lead">I like understanding how things work, why they break, and how to make them simpler for the next person.</p><p>I'm a Chennai-based developer building my skills across frontend interfaces, backend APIs, and practical automation. My experience in editorial support and quality analysis also shapes how I approach software: pay attention to details, check assumptions, and make the result dependable.</p><div class="principles"><div><span class="mono">01</span><b>Think clearly</b><p>Understand the problem before adding complexity.</p></div><div><span class="mono">02</span><b>Build responsibly</b><p>Keep interfaces usable and behavior predictable.</p></div><div><span class="mono">03</span><b>Improve through feedback</b><p>Test the work, find the gaps, iterate.</p></div></div></div>
       </div>
     </section>
 
     <section class="stack-section section-pad" id="stack">
       <div class="page-wrap stack-grid">
-        <div><p class="section-index mono">04 / TOOLKIT</p><h2>Tools for the<br><span class="serif-accent">work at hand.</span></h2><p class="section-summary">A practical toolkit that keeps evolving with every project.</p></div>
+        <div><p class="section-index mono">05 / TOOLKIT</p><h2>Tools for the<br><span class="serif-accent">work at hand.</span></h2><p class="section-summary">A practical toolkit that keeps evolving with every project.</p></div>
         <div class="stack-list">
           <div class="stack-row"><span class="mono">01</span><div><h3>Frontend</h3><p>React · JavaScript · TypeScript · HTML · CSS · Tailwind CSS · Vite</p></div><span class="stack-symbol">↗</span></div>
-          <div class="stack-row"><span class="mono">02</span><div><h3>Backend & data</h3><p>Python · FastAPI · Node.js · Express.js · SQL · MySQL · SQLite</p></div><span class="stack-symbol">↗</span></div>
+          <div class="stack-row"><span class="mono">02</span><div><h3>Backend & data</h3><p>Python · pandas · SQL · SQLite · FastAPI · Matplotlib · Node.js</p></div><span class="stack-symbol">↗</span></div>
           <div class="stack-row"><span class="mono">03</span><div><h3>Quality & workflow</h3><p>Debugging · Manual testing · Git · GitHub · JIRA · VS Code</p></div><span class="stack-symbol">↗</span></div>
         </div>
       </div>
@@ -135,7 +153,7 @@
 
     <section class="experience-section section-pad" id="experience">
       <div class="page-wrap">
-        <div class="section-head"><div><p class="section-index mono">05 / EXPERIENCE</p><h2>Different roles.<br><span class="serif-accent">Useful perspective.</span></h2></div><p class="section-summary">My professional background has taught me to value accuracy, clear processes, and consistent delivery.</p></div>
+        <div class="section-head"><div><p class="section-index mono">06 / EXPERIENCE</p><h2>Different roles.<br><span class="serif-accent">Useful perspective.</span></h2></div><p class="section-summary">My professional background has taught me to value accuracy, clear processes, and consistent delivery.</p></div>
         <div class="timeline">
           <article class="timeline-item"><div class="timeline-date mono">MAR 2024 — PRESENT</div><div><h3>Junior Executive · Editorial Support</h3><p class="timeline-org">Straive · Springer journals</p><p>Process academic manuscripts, check metadata and formatting, support XML-related workflows, and coordinate quality checks with editorial teams.</p></div><span class="timeline-kind">Editorial operations</span></article>
           <article class="timeline-item"><div class="timeline-date mono">JUL 2023 — MAR 2024</div><div><h3>Quality Analyst</h3><p class="timeline-org">Zebronics</p><p>Worked in a quality-focused role that strengthened systematic checking, issue identification, and attention to detail.</p></div><span class="timeline-kind">Quality assurance</span></article>
@@ -145,7 +163,7 @@
     </section>
 
     <section class="contact-section section-pad" id="contact">
-      <div class="page-wrap contact-box"><div class="contact-top"><p class="section-index mono">06 / GET IN TOUCH</p><span class="contact-star" aria-hidden="true">✳</span></div><h2>Let's make something<br><span class="serif-accent">worth using.</span></h2><div class="contact-bottom"><p>Open to junior developer opportunities, collaborations, and freelance projects with a clear problem to solve.</p><div class="contact-actions"><a class="button button-dark" href="mailto:Bharath.dev040402@gmail.com">Email me <span aria-hidden="true">↗</span></a><a class="underlined-link" href="https://linkedin.com/in/bharath-b-3a0bb9207" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a></div></div></div>
+      <div class="page-wrap contact-box"><div class="contact-top"><p class="section-index mono">07 / GET IN TOUCH</p><span class="contact-star" aria-hidden="true">✳</span></div><h2>Let's make something<br><span class="serif-accent">worth using.</span></h2><div class="contact-bottom"><p>Open to junior developer and data analyst opportunities, collaborations, and freelance projects with a clear problem to solve.</p><div class="contact-actions"><a class="button button-dark" href="mailto:Bharath.dev040402@gmail.com">Email me <span aria-hidden="true">↗</span></a><a class="underlined-link" href="https://linkedin.com/in/bharath-b-3a0bb9207" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a></div></div></div>
     </section>
   </main>
   <footer class="site-footer"><div class="page-wrap footer-inner"><a class="wordmark" href="#home">B<span>/</span>B</a><p>Designed and built by Bharath B · <span id="year">2026</span></p><div><a href="https://github.com/Bharathpurvath" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#home">Back to top ↑</a></div></div></footer>

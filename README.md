@@ -8,7 +8,7 @@ A responsive personal portfolio website built with semantic HTML5 and CSS3. It i
 
 ## Overview
 
-The portfolio uses a dark visual style with mint and violet accents, a responsive navigation header, a code-themed hero card, and dedicated sections for about, skills, projects, experience, and contact.
+The portfolio uses a responsive editorial design with a dedicated data analytics section alongside selected development work, project collections, skills, experience, and contact details.
 
 ## Features
 
@@ -16,7 +16,8 @@ The portfolio uses a dark visual style with mint and violet accents, a responsiv
 - Sticky navigation with section links
 - About section with working principles
 - Skills grouped by frontend, backend/data, and workflow
-- Project cards with links to source code and the FileBuddy live demo
+- Selected project cards with links to source code and the FileBuddy live demo
+- Six data analytics case studies with source, findings, and scope limits
 - Professional background section
 - Email, LinkedIn, GitHub, and X links
 - Semantic HTML and keyboard focus styles
@@ -39,10 +40,12 @@ The portfolio uses a dark visual style with mint and violet accents, a responsiv
 2. Open the project folder.
 3. Open `index.html` in your browser.
 
-The root `index.html` and `style.css` files are the main site files. A matching copy is kept in the `my-portfolio` directory.
+The root `index.html`, `style.css`, and `script.js` files are the deployed site. A matching copy is kept in the `my-portfolio` directory.
 
 ## Featured Projects
 
+- **Data analytics:** six case studies in the [advanced projects repository](https://github.com/Bharathpurvath/advanced-projects)
+- **India data analyst job market:** [live dashboard](https://bharathpurvath.github.io/advanced-projects/india-data-analyst-job-market-capstone/reports/dashboard.html)
 - **FileBuddy:** [Live Demo](https://lambent-chaja-765d34.netlify.app/) · [Source Code](https://github.com/Bharathpurvath/filebuddy)
 - **Smart Farming IoT Dashboard:** [Source Code](https://github.com/Bharathpurvath/Bharath.B)
 
