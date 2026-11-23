@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bharathpurvath.github.io/bharath-portfolio/sitemap.xml
