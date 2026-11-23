@@ -1,60 +1,35 @@
-# Bharath B — Personal Portfolio
+# Bharath B | Freelance Web Developer
 
-A responsive personal portfolio website built with semantic HTML5 and CSS3. It introduces my development interests, selected projects, technical toolkit, professional background, and contact links.
+Personal portfolio of **Bharath B**, a freelance web developer and founder based in Chennai, Tamil Nadu, India.
 
-## Live Portfolio
+## Live portfolio
 
-[Visit the live website](https://bharathpurvath.github.io/bharath-portfolio/)
+- Portfolio: https://bharathpurvath.github.io/bharath-portfolio/
+- Professional biography: https://bharathpurvath.github.io/bharath-portfolio/about.html
+- ApplyFlow live application: https://applyflow-frontend-g0fi.onrender.com/
+- GitHub: https://github.com/Bharathpurvath
+- LinkedIn: https://linkedin.com/in/bharath-b-3a0bb9207
 
-## Overview
+## Professional focus
 
-The portfolio uses a responsive editorial design with dedicated data analytics and digital marketing sections alongside selected development work, project collections, skills, experience, and contact details.
+I build responsive websites and web applications using React, JavaScript, Python, HTML, CSS and SQL. This portfolio also preserves selected data analytics, digital marketing and learning projects.
 
-## Features
+## Website implementation
 
-- Responsive layouts for desktop, tablet, and mobile
-- Sticky navigation with section links
-- About section with working principles
-- Skills grouped by frontend, backend/data, and workflow
-- Selected project cards with links to source code and the FileBuddy live demo
-- Six data analytics case studies with source, findings, and scope limits
-- Ten digital marketing projects with links to audits, workbooks, and the interactive analytics platform
-- Professional background section
-- Email, LinkedIn, GitHub, and X links
-- Semantic HTML and keyboard focus styles
-- Reduced-motion support for accessibility
-- No JavaScript framework or build step required
+- Semantic HTML5, CSS3 and vanilla JavaScript
+- Responsive layouts and keyboard accessibility
+- Search metadata, canonical URLs and social sharing metadata
+- Person and ProfilePage JSON-LD structured data
+- XML sitemap and robots.txt
+- Dedicated professional biography page
 
-## Built With
-
-- HTML5
-- CSS3
-
-## Run Locally
+## Run locally
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/Bharathpurvath/bharath-portfolio.git
    ```
+2. Open the repository folder.
+3. Open `index.html` in a browser.
 
-2. Open the project folder.
-3. Open `index.html` in your browser.
-
-The root `index.html`, `style.css`, and `script.js` files are the deployed site. A matching copy is kept in the `my-portfolio` directory.
-
-## Featured Projects
-
-- **Data analytics:** six case studies in the [advanced projects repository](https://github.com/Bharathpurvath/advanced-projects)
-- **Digital marketing:** [10 project portfolio](https://bharathpurvath.github.io/bharath-portfolio/digital-marketing/)
-- **India data analyst job market:** [live dashboard](https://bharathpurvath.github.io/advanced-projects/india-data-analyst-job-market-capstone/reports/dashboard.html)
-- **FileBuddy:** [Live Demo](https://lambent-chaja-765d34.netlify.app/) · [Source Code](https://github.com/Bharathpurvath/filebuddy)
-- **Smart Farming IoT Dashboard:** [Source Code](https://github.com/Bharathpurvath/Bharath.B)
-
-## Author
-
-**Bharath B**
-
-- GitHub: [@Bharathpurvath](https://github.com/Bharathpurvath)
-- LinkedIn: [Bharath B](https://linkedin.com/in/bharath-b-3a0bb9207)
-- X: [@Bharath70145101](https://x.com/Bharath70145101)
+The root `index.html`, `style.css` and `script.js` files are the GitHub Pages site source.
